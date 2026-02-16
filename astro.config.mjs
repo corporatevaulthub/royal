@@ -3,6 +3,7 @@ import { defineConfig, fontProviders } from 'astro/config';
 import yaml from '@rollup/plugin-yaml';
 // https://astro.build/config
 export default defineConfig({
+  site: "https://royalf.ae/",
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'ar'],

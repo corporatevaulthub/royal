@@ -1,6 +1,5 @@
 ---
 import { Image } from 'astro:assets';
-import heroImage from '@/assets/hero-image.png';
 
 import heroTranslations from '@/data/hero.yaml';
 
@@ -40,7 +39,7 @@ const translations = heroTranslations[lang];
     </div>
 
     <div class={`hero-image-container -order-1 md:absolute md:top-0 ${lang === 'ar' ? 'md:left-0 rtl-clip' : 'md:right-0'} md:w-1/2 md:h-full`}>
-      <Image src={heroImage} alt="Dubai Skyline" class="h-50 object-center md:size-full object-cover hero-image" />
+      <Image src={import('@/assets/hero-image.png')} alt="Dubai Skyline" class="h-50 object-center md:size-full object-cover hero-image" />
     </div>
   </div>
 </section>
