@@ -187,3 +187,14 @@ singletons:
           - { label: Label, name: label, i18n: true }
           - { label: URL, name: url, i18n: false }
       - { label: Request Callback Button, name: requestCallbackBtn, i18n: true }
+
+  # ── SEO Settings ──
+  - name: seo
+    label: SEO Settings
+    icon: search
+    file: src/data/seo.yaml
+    i18n: true
+    fields:
+      - { label: Site Title, name: siteTitle, i18n: true, hint: 'SEO title for the site' }
+      - { label: Site Description, name: siteDescription, widget: text, i18n: true, hint: 'Meta description for SEO' }
+      - { label: Site Logo, name: siteLogo, widget: image, i18n: false, media_folder: /, hint: 'Logo file (PNG, SVG, ICO)', choose_url: false }
