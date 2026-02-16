@@ -7,7 +7,7 @@ i18n:
 
 backend:
   name: github
-  repo: somethingxdev/royal
+  repo: corporatevaulthub/royal
 
 media_folder: /src/assets
 public_folder: /src/assets
