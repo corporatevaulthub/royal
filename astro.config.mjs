@@ -1,9 +1,11 @@
 import tailwindcss from '@tailwindcss/vite';
 import { defineConfig, fontProviders } from 'astro/config';
 import yaml from '@rollup/plugin-yaml';
+import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
   site: "https://royalf.ae/",
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'ar'],
@@ -11,6 +13,7 @@ export default defineConfig({
       prefixDefaultLocale: false,
     },
   },
+
   experimental: {
     fonts: [
       {
@@ -22,7 +25,10 @@ export default defineConfig({
       },
     ],
   },
+
   vite: {
     plugins: [tailwindcss(), yaml()],
   },
+
+  integrations: [sitemap()],
 });
