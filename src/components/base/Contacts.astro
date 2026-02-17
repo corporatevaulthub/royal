@@ -104,7 +104,10 @@ const settings = settingsData[lang] as Settings;
   const formSchema = z.object({
     user_name: z.string().min(2, 'Name must be at least 2 characters'),
     company: z.string().min(1, 'Company is required'),
-    phone: z.string().min(5, 'Phone must be at least 5 characters').regex(/^\+?[0-9]+$/, 'Phone must contain only numbers and +'),
+    phone: z
+      .string()
+      .min(5, 'Phone must be at least 5 characters')
+      .regex(/^\+?[0-9]+$/, 'Phone must contain only numbers and +'),
     message: z.string().optional(),
   });
 
@@ -138,8 +141,6 @@ const settings = settingsData[lang] as Settings;
       messageInput.classList.add('border-gray-300', 'focus:border-primary');
     }
   }
-
-
 
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
@@ -181,11 +182,11 @@ const settings = settingsData[lang] as Settings;
         PUBLIC_KEY,
       );
 
-      toast.success("Success!", { description: "Your message has been sent successfully." });
+      toast.success('Success!', { description: 'Your message has been sent successfully.' });
       form.reset();
     } catch (error) {
       console.error('EmailJS error:', error);
-      toast.error("Something went wrong.", { description: "Please try again later." });
+      toast.error('Something went wrong.', { description: 'Please try again later.' });
     } finally {
       submitBtn.disabled = false;
       submitBtn.textContent = form.dataset.sendBtnText || 'Send Request';
