@@ -1,67 +1,66 @@
 en:
-  phone: "+996 555 989 710"
-  email: "royal@gmail.com"
-  requestCallbackBtn: "Request a callback"
+  phone: +996 555 989 710
+  email: info@royalf.ae
   headerMenu:
     - label: Home
-      url: "/"
+      url: /
     - label: About us
-      url: "#about"
+      url: '#about'
     - label: Services
-      url: "#services"
+      url: '#services'
       children:
         - label: Furniture & Interior Decor
-          url: "#decor"
+          url: '#decor'
         - label: Automotive Parts
-          url: "#parts"
+          url: '#parts'
         - label: Other Goods
-          url: "#goods"
+          url: '#goods'
         - label: International Trade
-          url: "#trade"
+          url: '#trade'
     - label: Contact us
-      url: "#contacts"
+      url: '#contacts'
   footerMenu:
     - label: About the Company
-      url: "#about"
+      url: '#about'
     - label: Services
-      url: "#services"
+      url: '#services'
     - label: Contacts
-      url: "#contacts"
+      url: '#contacts'
     - label: Privacy Policy
-      url: "#privacy"
+      url: '#privacy'
     - label: Sitemap
-      url: "#sitemap"
-
+      url: '#sitemap'
+  requestCallbackBtn: Request a callback
 ar:
-  phone: "+996 555 989 710"
-  email: "royal@gmail.com"
-  requestCallbackBtn: "طلب معاودة الاتصال"
+  phone: +996 555 989 710
+  email: royal@gmail.com
   headerMenu:
     - label: الرئيسية
-      url: "/"
+      url: /
     - label: من نحن
-      url: "#about"
+      url: '#about'
     - label: الخدمات
-      url: "#services"
+      url: '#services'
       children:
         - label: الأثاث والديكور
-          url: "#decor"
+          url: '#decor'
         - label: قطع غيار السيارات
-          url: "#parts"
+          url: '#parts'
         - label: سلع أخرى
-          url: "#goods"
+          url: '#goods'
         - label: التجارة الدولية
-          url: "#trade"
+          url: '#trade'
     - label: اتصل بنا
-      url: "#contacts"
+      url: '#contacts'
   footerMenu:
     - label: عن الشركة
-      url: "#about"
+      url: '#about'
     - label: الخدمات
-      url: "#services"
+      url: '#services'
     - label: جهات الاتصال
-      url: "#contacts"
+      url: '#contacts'
     - label: سياسة الخصوصية
-      url: "#privacy"
+      url: '#privacy'
     - label: خريطة الموقع
-      url: "#sitemap"
+      url: '#sitemap'
+  requestCallbackBtn: طلب معاودة الاتصال
