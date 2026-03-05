@@ -18,13 +18,15 @@ en:
       image: /src/assets/services/furniture.png
       footerValue: null
     - title: Other Goods
-      subtitle: Other Goods
+      subtitle: Wide Range of Product Categories
       button: Get a Consultation
-      description: Other Goods
-      advantagesLabel: Other Goods
+      description: We source and supply goods across various categories — from industrial and technical products to consumer and commercial items. Flexible solutions tailored to your specific requirements and target markets.
+      advantagesLabel: 'Key Advantages:'
       advantages:
-        - text: Other Goods
-        - text: Other Goods
+        - text: Broad product category coverage
+        - text: Flexible terms and custom sourcing
+        - text: End-to-end logistics support
+        - text: Transparent and compliant supply chain
       extraDescription: ''
       footerLabel: ''
       image: /src/assets/goods/consumer-goods.png
