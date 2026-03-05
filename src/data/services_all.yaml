@@ -17,6 +17,17 @@ en:
       footerLabel: ''
       image: /src/assets/services/furniture.png
       footerValue: null
+    - title: Other Goods
+      subtitle: Other Goods
+      button: Get a Consultation
+      description: Other Goods
+      advantagesLabel: Other Goods
+      advantages:
+        - text: Other Goods
+        - text: Other Goods
+      extraDescription: ''
+      footerLabel: ''
+      image: /src/assets/goods/consumer-goods.png
     - title: Automotive Parts
       subtitle: Genuine Parts from a Trusted Supplier
       button: See Availability
@@ -48,17 +59,6 @@ en:
       footerLabel: 'Our Network:'
       image: /src/assets/services/trade.png
       footerValue: Europe, Asia, Middle East
-    - title: Other Goods
-      subtitle: Other Goods
-      button: Get a Consultation
-      description: Other Goods
-      advantagesLabel: Other Goods
-      advantages:
-        - text: Other Goods
-        - text: Other Goods
-      extraDescription: ''
-      footerLabel: ''
-      image: /src/assets/goods/consumer-goods.png
 ar:
   title: خدمات رويال فورواردينغ
   subtitle: يمكننا التعامل بالكامل مع عمليات التجارة الخارجية الخاصة بك أو المساعدة في أي مرحلة تحتاج فيها إلى الدعم.
